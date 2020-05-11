@@ -1,0 +1,5 @@
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+.mat-toolbar {
+  background-color: #9c27b0;
+}
