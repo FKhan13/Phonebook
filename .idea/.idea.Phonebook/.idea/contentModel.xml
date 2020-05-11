@@ -198,6 +198,15 @@
           <e p="tslint.json" t="Include" />
         </e>
         <e p="Controllers" t="Include" />
+        <e p="Data" t="Include">
+          <e p="DbInitialiser.cs" t="Include" />
+          <e p="PhoneBookContext.cs" t="Include" />
+          <e p="PhoneBookRepository.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Entry.cs" t="Include" />
+          <e p="PhoneBook.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -211,6 +220,7 @@
           <e p="Error.cshtml" t="Include" />
           <e p="Error.cshtml.cs" t="Include" />
         </e>
+        <e p="PB.db" t="Include" />
         <e p="Phonebook.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
