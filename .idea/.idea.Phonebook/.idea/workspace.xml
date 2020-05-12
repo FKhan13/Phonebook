@@ -11,23 +11,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c90b6145-0db0-4a42-8368-326f587957c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phonebook/Models/Entry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/entry.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/phone-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/Phonebook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Phonebook.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,25 +46,28 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Phonebook/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13DA8DF4-F4FB-4394-A581-F44A587913F7/153/ControllerFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/ClientApp/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A3DBE483-6645-4FDB-B51D-FEEB0B5C4997/A/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/ClientApp/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E4681A2B-557A-4D80-BF7E-B7E6FBA5C008/4/DeveloperExceptionPageMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/ClientApp/tslint.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/ClientApp/angular.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Models/Entry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E4681A2B-557A-4D80-BF7E-B7E6FBA5C008/15/ExceptionHandlerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.css" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.html" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/tslint.json" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/footer/footer.component.ts" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.server.module.ts" />
@@ -61,15 +75,26 @@
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/package.json" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/styles.css" />
-        <option value="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" />
         <option value="$PROJECT_DIR$/Phonebook/appsettings.json" />
         <option value="$PROJECT_DIR$/Phonebook/Models/Entry.cs" />
         <option value="$PROJECT_DIR$/Phonebook/Program.cs" />
-        <option value="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" />
-        <option value="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" />
-        <option value="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" />
         <option value="$PROJECT_DIR$/Phonebook/.gitignore" />
+        <option value="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" />
         <option value="$PROJECT_DIR$/Phonebook/Startup.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/main.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/phone-book.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.spec.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/services/api.service.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/entry.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.html" />
       </list>
     </option>
   </component>
@@ -82,6 +107,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
@@ -143,6 +169,7 @@
       <workItem from="1589207512628" duration="1415000" />
       <workItem from="1589209101285" duration="1206000" />
       <workItem from="1589210970838" duration="6194000" />
+      <workItem from="1589274139056" duration="15350000" />
     </task>
     <servers />
   </component>
@@ -167,114 +194,126 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1589217655073">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1589292396250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292396250" />
+    <state width="400" height="464" key="DebuggerActiveHint" timestamp="1589279689305">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="400" height="464" key="DebuggerActiveHint/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589279689305" />
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom" timestamp="1589292786590">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330919" />
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217655073" />
-    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1589217655072">
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
+    <state width="1877" height="360" key="GridCell.Tab.0.center" timestamp="1589292786590">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330919" />
-    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217655072" />
-    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1589217655072">
+    <state width="1877" height="360" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
+    <state width="1877" height="360" key="GridCell.Tab.0.left" timestamp="1589292786590">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330918" />
-    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217655072" />
-    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1589217655073">
+    <state width="1877" height="360" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
+    <state width="1877" height="360" key="GridCell.Tab.0.right" timestamp="1589292786590">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330919" />
-    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217655073" />
-    <state width="1877" height="390" key="GridCell.Tab.1.bottom" timestamp="1589217656261">
+    <state width="1877" height="360" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
+    <state width="1877" height="360" key="GridCell.Tab.1.bottom" timestamp="1589292786491">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217656261" />
-    <state width="1877" height="390" key="GridCell.Tab.1.center" timestamp="1589217656261">
+    <state width="1877" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
+    <state width="1877" height="360" key="GridCell.Tab.1.center" timestamp="1589292786491">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.1.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217656261" />
-    <state width="1877" height="390" key="GridCell.Tab.1.left" timestamp="1589217656261">
+    <state width="1877" height="360" key="GridCell.Tab.1.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
+    <state width="1877" height="360" key="GridCell.Tab.1.left" timestamp="1589292786491">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.1.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217656261" />
-    <state width="1877" height="390" key="GridCell.Tab.1.right" timestamp="1589217656261">
+    <state width="1877" height="360" key="GridCell.Tab.1.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
+    <state width="1877" height="360" key="GridCell.Tab.1.right" timestamp="1589292786491">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217656261" />
-    <state width="1877" height="390" key="GridCell.Tab.2.bottom" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
+    <state width="1877" height="360" key="GridCell.Tab.2.bottom" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.2.center" timestamp="1589217654973">
+    <state width="1877" height="360" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.2.center" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.2.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654973" />
-    <state width="1877" height="390" key="GridCell.Tab.2.left" timestamp="1589217654973">
+    <state width="1877" height="360" key="GridCell.Tab.2.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.2.left" timestamp="1589292786491">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.2.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654973" />
-    <state width="1877" height="390" key="GridCell.Tab.2.right" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.2.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
+    <state width="1877" height="360" key="GridCell.Tab.2.right" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.2.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.3.bottom" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.2.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.3.bottom" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.3.center" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.3.center" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.3.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.3.left" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.3.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.3.left" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.3.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.3.right" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.3.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.3.right" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.3.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.4.bottom" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.3.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.4.bottom" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.4.center" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.4.center" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.4.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.4.left" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.4.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.4.left" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.4.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state width="1877" height="390" key="GridCell.Tab.4.right" timestamp="1589217654974">
+    <state width="1877" height="360" key="GridCell.Tab.4.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1877" height="360" key="GridCell.Tab.4.right" timestamp="1589292786492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.4.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589217654974" />
-    <state x="670" y="218" key="RiderGenerateDialog" timestamp="1589218098625">
+    <state width="1877" height="360" key="GridCell.Tab.4.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state x="670" y="218" key="RiderGenerateDialog" timestamp="1589226194937">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="670" y="218" key="RiderGenerateDialog/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589218098625" />
+    <state x="670" y="218" key="RiderGenerateDialog/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589226194937" />
     <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog" timestamp="1589213510336">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589213510336" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589288872396">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589288872396" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs</url>
-          <line>9</line>
-          <properties documentPath="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" initialLine="9">
+          <url>file://$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" initialLine="50">
             <startOffsets>
-              <option value="201" />
+              <option value="1451" />
             </startOffsets>
             <endOffsets>
-              <option value="234" />
+              <option value="1479" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

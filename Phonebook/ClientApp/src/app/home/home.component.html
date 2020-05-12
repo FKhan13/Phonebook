@@ -1,1 +1,6 @@
-<h1>Phonebook</h1>
+<mat-action-list>
+  <h2 matSubheader>Select a Phone Book:</h2>
+  <mat-list-item *ngFor="let phonebook of phonebooks" [routerLink]="['phonebook', phonebook.id]" [id]="phonebook.id"
+  >{{phonebook.name | uppercase}}</mat-list-item>
+  <mat-divider></mat-divider>
+</mat-action-list>

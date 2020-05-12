@@ -170,10 +170,24 @@
                 <e p="home.component.html" t="Include" />
                 <e p="home.component.ts" t="Include" />
               </e>
+              <e p="Models" t="Include">
+                <e p="entry.ts" t="Include" />
+                <e p="phone-book.ts" t="Include" />
+              </e>
               <e p="nav-menu" t="Include">
                 <e p="nav-menu.component.css" t="Include" />
                 <e p="nav-menu.component.html" t="Include" />
                 <e p="nav-menu.component.ts" t="Include" />
+              </e>
+              <e p="phone-book" t="Include">
+                <e p="phone-book.component.css" t="Include" />
+                <e p="phone-book.component.html" t="Include" />
+                <e p="phone-book.component.spec.ts" t="Include" />
+                <e p="phone-book.component.ts" t="Include" />
+              </e>
+              <e p="Services" t="Include">
+                <e p="api.service.spec.ts" t="Include" />
+                <e p="api.service.ts" t="Include" />
               </e>
             </e>
             <e p="assets" t="Include">
@@ -197,7 +211,9 @@
           <e p="tsconfig.json" t="Include" />
           <e p="tslint.json" t="Include" />
         </e>
-        <e p="Controllers" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="PhoneBookController.cs" t="Include" />
+        </e>
         <e p="Data" t="Include">
           <e p="DbInitialiser.cs" t="Include" />
           <e p="PhoneBookContext.cs" t="Include" />
@@ -221,6 +237,8 @@
           <e p="Error.cshtml.cs" t="Include" />
         </e>
         <e p="PB.db" t="Include" />
+        <e p="PB.db-shm" t="Include" />
+        <e p="PB.db-wal" t="Include" />
         <e p="Phonebook.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

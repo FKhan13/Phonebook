@@ -5,6 +5,10 @@ namespace Phonebook.Data
 {
     public static class DbInitialiser
     {
+        /// <summary>
+        /// Seed database if the database does not contain any data
+        /// </summary>
+        /// <param name="context"></param>
         public static void Initialize(PhoneBookContext context)
         {
             context.Database.EnsureCreated();
