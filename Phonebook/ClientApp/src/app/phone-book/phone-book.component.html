@@ -1,12 +1,36 @@
-<mat-list>
-  <h2 matSubheader>Contacts</h2>
-  <label>
-    <input #search (keyup)="OnSearch(search.value)" matInput placeholder="Search...">
-  </label>
-  <mat-list-item *ngFor="let entry of entries" [id]="entry.id"
-  >
-    <h4 mat-line>{{entry.name | titlecase}}</h4>
-    <p mat-line> {{entry.phoneNumber}} </p>
-  </mat-list-item>
-  <mat-divider></mat-divider>
-</mat-list>
+<mat-accordion>
+  <mat-form-field>
+    <label>
+      <input #search (keyup)="OnSearch(search.value)" matInput placeholder="Search...">
+    </label>
+  </mat-form-field>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>Add Contact</mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <form [formGroup]="form" (ngSubmit)="OnSubmit(form.value)">
+      <mat-form-field>
+        <label for="name"></label><input id="name" matInput placeholder="Name" formControlName="name">
+      </mat-form-field>
+      <mat-form-field>
+        <label for="number"></label><input id="number" matInput placeholder="Number" formControlName="number">
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit">Add</button>
+
+    </form>
+
+  </mat-expansion-panel>
+  <mat-list>
+    <h2 matSubheader>Contacts</h2>
+    <mat-divider></mat-divider>
+    <div *ngFor="let entry of entries">
+      <mat-list-item>
+        <h4 mat-line>{{entry.name | titlecase}}</h4>
+        <p mat-line> {{entry.phoneNumber}} </p>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </div>
+  </mat-list>
+</mat-accordion>

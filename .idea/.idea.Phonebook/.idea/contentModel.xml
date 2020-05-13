@@ -168,6 +168,7 @@
               </e>
               <e p="home" t="Include">
                 <e p="home.component.html" t="Include" />
+                <e p="home.component.spec.ts" t="Include" />
                 <e p="home.component.ts" t="Include" />
               </e>
               <e p="Models" t="Include">
@@ -237,8 +238,6 @@
           <e p="Error.cshtml.cs" t="Include" />
         </e>
         <e p="PB.db" t="Include" />
-        <e p="PB.db-shm" t="Include" />
-        <e p="PB.db-wal" t="Include" />
         <e p="Phonebook.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

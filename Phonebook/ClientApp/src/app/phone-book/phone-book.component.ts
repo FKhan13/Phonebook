@@ -2,6 +2,8 @@ import {Component, OnInit} from "@angular/core";
 import {ActivatedRoute} from "@angular/router";
 import {ApiService} from "../services/api.service";
 import {Entry} from "../models/entry";
+import {FormBuilder, FormGroup} from "@angular/forms";
+import {MatSnackBar} from "@angular/material/snack-bar";
 
 @Component({
   selector: "app-phone-book",
@@ -13,12 +15,20 @@ export class PhoneBookComponent implements OnInit {
   public wildcard = "";
   public entries: Entry[];
 
+  public form: FormGroup;
+
   /**
    * Constructor
    * @param route
    * @param api
+   * @param formbuilder
+   * @param snackBar
+   * @constructor
    */
-  constructor(private route: ActivatedRoute, private api: ApiService) {
+  constructor(private route: ActivatedRoute,
+              private api: ApiService,
+              private formbuilder: FormBuilder,
+              private snackBar: MatSnackBar) {
   }
 
   /**
@@ -26,14 +36,18 @@ export class PhoneBookComponent implements OnInit {
    */
   ngOnInit() {
     this.route.params.subscribe(params => {
-      this.phonebookid = params["id"];
+      this.phonebookid = +params["id"];
       this.GetEntries();
+    });
+
+    this.form = this.formbuilder.group({
+      name: "",
+      number: ""
     });
   }
 
   /**
    * Get Entries
-   * @constructor
    */
   public GetEntries() {
     this.api.GetEntries(this.phonebookid, this.wildcard).subscribe(result => {
@@ -52,4 +66,27 @@ export class PhoneBookComponent implements OnInit {
     this.GetEntries();
   }
 
+  /**
+   * Add new Phone Book entry
+   * @param data
+   * @constructor
+   */
+  public OnSubmit(data: FormData) {
+    this.form.reset();
+
+    this.api.AddEntry(this.phonebookid, data.name, data.number).subscribe(result => {
+      this.snackBar.open("New Contact Added", null, {
+        duration: 2000,
+      });
+      this.GetEntries();
+    }, error => {
+      console.error(error);
+    });
+  }
+
+}
+
+export interface FormData {
+  name: string;
+  number: string;
 }

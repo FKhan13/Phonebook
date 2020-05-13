@@ -1,6 +1,6 @@
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule, HTTP_INTERCEPTORS} from "@angular/common/http";
 import {RouterModule} from "@angular/router";
 
@@ -15,6 +15,9 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatListModule} from "@angular/material/list";
 import { PhoneBookComponent } from "./phone-book/phone-book.component";
 import {MatInputModule} from "@angular/material/input";
+import {MatExpansionModule} from "@angular/material/expansion";
+import {MatButtonModule} from "@angular/material/button";
+import {MatSnackBarModule} from "@angular/material/snack-bar";
 
 @NgModule({
   declarations: [
@@ -34,9 +37,12 @@ import {MatInputModule} from "@angular/material/input";
     ]),
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatDialogModule,
     MatListModule,
-    MatInputModule
+    MatInputModule,
+    MatExpansionModule,
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [{provide: ApiService, useClass: ApiService}],
   bootstrap: [AppComponent]

@@ -11,20 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c90b6145-0db0-4a42-8368-326f587957c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/entry.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/phone-book.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phonebook/Library/CorsMiddleware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Phonebook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/services/api.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/services/api.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/app/services/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phonebook/ClientApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/ClientApp/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/Phonebook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Phonebook.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phonebook/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/Startup.cs" afterDir="false" />
     </list>
@@ -50,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Phonebook/Library/CorsMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/ClientApp/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A3DBE483-6645-4FDB-B51D-FEEB0B5C4997/A/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Phonebook/ClientApp/package.json" root0="FORCE_HIGHLIGHTING" />
@@ -66,35 +69,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.css" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.html" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/tslint.json" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/footer/footer.component.ts" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.server.module.ts" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/package.json" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/styles.css" />
         <option value="$PROJECT_DIR$/Phonebook/appsettings.json" />
         <option value="$PROJECT_DIR$/Phonebook/Models/Entry.cs" />
         <option value="$PROJECT_DIR$/Phonebook/Program.cs" />
         <option value="$PROJECT_DIR$/Phonebook/.gitignore" />
         <option value="$PROJECT_DIR$/Phonebook/Data/PhoneBookContext.cs" />
         <option value="$PROJECT_DIR$/Phonebook/Data/DbInitialiser.cs" />
-        <option value="$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" />
-        <option value="$PROJECT_DIR$/Phonebook/Startup.cs" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/main.ts" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/phone-book.ts" />
         <option value="$PROJECT_DIR$/Phonebook/Models/PhoneBook.cs" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.spec.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/entry.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/styles.css" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/Phonebook/Library/CorsMiddleware.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.css" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.html" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.html" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/nav-menu/nav-menu.component.css" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/services/api.service.ts" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.html" />
-        <option value="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/models/entry.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/services/api.service.spec.ts" />
         <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.ts" />
-        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.html" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/phone-book/phone-book.component.spec.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/ClientApp/src/app/home/home.component.spec.ts" />
+        <option value="$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/Startup.cs" />
+        <option value="$PROJECT_DIR$/Phonebook/Data/PhoneBookRepository.cs" />
       </list>
     </option>
   </component>
@@ -109,8 +116,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498452" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3003096" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -169,7 +176,9 @@
       <workItem from="1589207512628" duration="1415000" />
       <workItem from="1589209101285" duration="1206000" />
       <workItem from="1589210970838" duration="6194000" />
-      <workItem from="1589274139056" duration="15350000" />
+      <workItem from="1589274139056" duration="27163000" />
+      <workItem from="1589352953880" duration="1837000" />
+      <workItem from="1589355636792" duration="8769000" />
     </task>
     <servers />
   </component>
@@ -198,94 +207,111 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292396250" />
-    <state width="400" height="464" key="DebuggerActiveHint" timestamp="1589279689305">
+    <state width="445" height="464" key="DebuggerActiveHint" timestamp="1589359238199">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="400" height="464" key="DebuggerActiveHint/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589279689305" />
-    <state width="1877" height="360" key="GridCell.Tab.0.bottom" timestamp="1589292786590">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="400" height="330" key="DebuggerActiveHint/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589304730678" />
+    <state width="445" height="464" key="DebuggerActiveHint/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589359238199" />
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom" timestamp="1589368902450">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330919" />
-    <state width="1877" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
-    <state width="1877" height="360" key="GridCell.Tab.0.center" timestamp="1589292786590">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902450" />
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.0.center" timestamp="1589368902450">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330919" />
-    <state width="1877" height="360" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
-    <state width="1877" height="360" key="GridCell.Tab.0.left" timestamp="1589292786590">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902450" />
+    <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.0.left" timestamp="1589368902450">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330918" />
-    <state width="1877" height="360" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
-    <state width="1877" height="360" key="GridCell.Tab.0.right" timestamp="1589292786590">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902450" />
+    <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.0.right" timestamp="1589368902450">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589208330919" />
-    <state width="1877" height="360" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786590" />
-    <state width="1877" height="360" key="GridCell.Tab.1.bottom" timestamp="1589292786491">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902450" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.1.bottom" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
-    <state width="1877" height="360" key="GridCell.Tab.1.center" timestamp="1589292786491">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.1.center" timestamp="1589368902450">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
-    <state width="1877" height="360" key="GridCell.Tab.1.left" timestamp="1589292786491">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.1.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902450" />
+    <state width="1877" height="210" key="GridCell.Tab.1.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.1.left" timestamp="1589368902450">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
-    <state width="1877" height="360" key="GridCell.Tab.1.right" timestamp="1589292786491">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.1.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902450" />
+    <state width="1877" height="210" key="GridCell.Tab.1.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.1.right" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
-    <state width="1877" height="360" key="GridCell.Tab.2.bottom" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171852" />
+    <state width="1323" height="142" key="GridCell.Tab.2.bottom" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.2.center" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.2.center" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.2.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.2.left" timestamp="1589292786491">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.2.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.2.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.2.left" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.2.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786491" />
-    <state width="1877" height="360" key="GridCell.Tab.2.right" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.2.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.2.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.2.right" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.2.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.3.bottom" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.2.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.2.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.3.bottom" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.3.center" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.3.center" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.3.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.3.left" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.3.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.3.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.3.left" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.3.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.3.right" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.3.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.3.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.3.right" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.3.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.4.bottom" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.3.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.3.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.4.bottom" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.4.center" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.4.center" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.4.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.4.left" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.4.center/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.4.center/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.4.left" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.4.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
-    <state width="1877" height="360" key="GridCell.Tab.4.right" timestamp="1589292786492">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="142" key="GridCell.Tab.4.left/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.4.left/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
+    <state width="1323" height="142" key="GridCell.Tab.4.right" timestamp="1589368902451">
+      <screen x="-1366" y="69" width="1366" height="768" />
     </state>
-    <state width="1877" height="360" key="GridCell.Tab.4.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589292786492" />
+    <state width="1323" height="142" key="GridCell.Tab.4.right/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368902451" />
+    <state width="1877" height="210" key="GridCell.Tab.4.right/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589365171853" />
     <state x="670" y="218" key="RiderGenerateDialog" timestamp="1589226194937">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -294,28 +320,27 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589213510336" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589288872396">
+    <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1589358606653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589288872396" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/Phonebook/Controllers/PhoneBookController.cs" initialLine="50">
-            <startOffsets>
-              <option value="1451" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1479" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="968" height="548" key="XDebugger.FullValuePopup/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589358606653" />
+    <state x="0" y="0" width="1339" height="754" maximized="true" key="dock-window-1" timestamp="1589365617170">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="1339" height="754" maximized="true" key="dock-window-1/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589365617170" />
+    <state x="-1366" y="69" width="1382" height="855" key="dock-window-1/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589355620987" />
+    <state x="638" y="275" width="644" height="530" key="find.popup" timestamp="1589296114447">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="638" y="275" width="644" height="530" key="find.popup/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589296114447" />
+    <state x="-1027" y="207" key="run.anything.popup" timestamp="1589304551177">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state x="-1027" y="207" key="run.anything.popup/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589304551177" />
+    <state x="-923" y="236" width="672" height="483" key="search.everywhere.popup" timestamp="1589368530186">
+      <screen x="-1366" y="69" width="1366" height="768" />
+    </state>
+    <state x="-923" y="236" width="672" height="483" key="search.everywhere.popup/0.0.1920.1080/-1366.69.1366.768@-1366.69.1366.768" timestamp="1589368530186" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1366.69.1366.768@0.0.1920.1080" timestamp="1589357676884" />
   </component>
 </project>

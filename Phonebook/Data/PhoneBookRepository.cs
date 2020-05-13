@@ -42,7 +42,8 @@ namespace Phonebook.Data
             wildCard ??= "";
 
             return _context.Entries
-                .Where(e => (e.Name.Contains(wildCard) || e.PhoneNumber.Contains(wildCard)) && e.PhoneBookID == id)
+                .Where(e => (e.Name.ToLower().Contains(wildCard.ToLower()) ||
+                             e.PhoneNumber.ToLower().Contains(wildCard.ToLower())) && e.PhoneBookID == id)
                 .OrderBy(e => e.Name);
         }
 
