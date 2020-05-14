@@ -11,10 +11,10 @@ For a stand-alone test container deployement.
 - Execute docker build command (Run command in context of dockerfile next to .gitignore)
 - Example:
 ```powershell
-docker build . -t chucknorris
+docker build . -t phonebook
 ```
 - Execute docker run command
 - Example:
 ```
-docker run 8090:80 chucknorris
+docker run 8090:80 phonebook
 ```
